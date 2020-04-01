@@ -44,4 +44,10 @@ doc.ready(function () {
         loop: true,
         backDelay: 3000
     });
+    $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+    });
 });
+
