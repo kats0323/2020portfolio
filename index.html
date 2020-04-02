@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/design.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
@@ -42,10 +43,14 @@
             </nav>
         </div>
         <div class="top-bg">
-            <h1 class="txt-center pad-300">I am <span class="mytext"></span></h1>
+            <h1 class="txt-center pad-300-top">I am <span class="mytext"></span></h1>
             <div class="txt-center fa-position">
-                <i class="far fa-envelope f-awsome "></i>
-                <i class="fab fa-github f-awsome "></i>
+                <a href="mailto:test&#64;test.com">
+                    <i class="far fa-envelope f-awsome "></i>
+                </a>
+                <a href="https://github.com/kats0323">
+                    <i class="fab fa-github f-awsome "></i>
+                </a>
             </div>
             <div class="txt-center btn-position">
                 <button class="btn"><a href="#a-p">Learn more</a></button>
@@ -61,7 +66,7 @@
             <br>
             シミズ　カツヒロ
         </div>
-        <div class="icon-position txt-center pad-50">
+        <div class="icon-position txt-center pad-50-icon">
             <img src="img/image0.jpeg" alt="" class="icon-img" />
         </div>
         <div class="container pad-50">
@@ -116,15 +121,16 @@
         <div id="w-p"></div>
         <h1 class="txt-center">Work</h1>
         <div class="container pad-50">
-
             <div class="row">
-                <div class="col">
-                    <div class="work1">
-                        <img src="img/work2.png" alt="" />
-                        <div class="mask">
-                            <div class="caption">World Avenue</div>
+                <div class="col pad-b-20">
+                    <a href="https://teigakuryugaku.com/" 　target="_blank">
+                        <div class="work1">
+                            <img src="img/work2.png" alt="" />
+                            <div class="mask">
+                                <div class="caption">World Avenue</div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="txt-center">
                         <div class="skill-img">
                             Rails & Vue.js etc...
@@ -136,13 +142,15 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="work2">
-                        <img src="img/work1.png" alt="" />
-                        <div class="mask">
-                            <div class="caption">Miho Style</div>
+                <div class="col pad-b-20">
+                    <a href="https://mihosstylesydney.herokuapp.com/" 　target="_blank">
+                        <div class="work2">
+                            <img src="img/work1.png" alt="" />
+                            <div class="mask">
+                                <div class="caption">Miho Style</div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="txt-center">
                         <div class="skill-img">
                             React & node.js
@@ -155,7 +163,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col pad-b-20">
                     <div class="work3">
                         <img src="img/work3.png" alt="" />
                         <div class="mask">
@@ -164,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col pad-b-20">
                     <div class="work3">
                         <img src="img/work3.png" alt="" />
                         <div class="mask">
@@ -174,21 +182,40 @@
                 </div>
             </div>
         </div>
+    </div><!-- container -->
     </div><!-- hobbies-container -->
     <div class="projects-container">
         <br>
+        <h1 class="txt-center pad-300-tr">Travel</h1>
         <div id="t-p"></div>
-        <h1 class="txt-center pad-300">Travel</h1>
-        <ul class="slider txt-center pad-50">
-            <li><img src="img/slide/01.jpg" alt="" class="txt-center" /></li>
-            <li><img src=" img/slide/02.jpg" alt="" /></li>
-            <li><img src="img/slide/03.jpg" alt="" /></li>
-            <li><img src="img/slide/04.jpg" alt="" /></li>
-            <li><img src="img/slide/05.jpg" alt="" /></li>
-            <li><img src="img/slide/06.jpg" alt="" /></li>
-            <li><img src="img/slide/07.jpg" alt="" /></li>
-            <li><img src="img/slide/08.jpg" alt="" /></li>
-            <li><img src="img/slide/09.jpg" alt="" /></li>
+        <ul class="slider txt-center pad-50-slider">
+            <li><img src="img/slide/01.jpg" alt="" class="txt-center" />
+                <p>Fushimi inari shrine, Kyoto Japan</p>
+            </li>
+            <li><img src=" img/slide/02.jpg" alt="" />
+                <p>Great Ocean Road, Victoria Australia</p>
+            </li>
+            <li><img src="img/slide/03.jpg" alt="" />
+                <p>New Zealand</p>
+            </li>
+            <li><img src="img/slide/04.jpg" alt="" />
+                <p>Uluru, Northern Territory Australia</p>
+            </li>
+            <li><img src="img/slide/05.jpg" alt="" />
+                <p>Venezia Italy</p>
+            </li>
+            <li><img src="img/slide/06.jpg" alt="" />
+                <p>Colosseum, Rome Italy</p>
+            </li>
+            <li><img src="img/slide/07.jpg" alt="" />
+                <p>Mont Saint-Michel, France</p>
+            </li>
+            <li><img src="img/slide/08.jpg" alt="" />
+                <p>Shirakawa-go, Gifu Japan</p>
+            </li>
+            <li><img src="img/slide/09.jpg" alt="" />
+                <p>Sydney Australia</p>
+            </li>
         </ul>
     </div><!-- projects-container -->
 
@@ -197,9 +224,13 @@
         <div class="pad-50">
         </div>
         <br>
-        <div class="txt-center fa-position">
-            <i class="far fa-envelope f-awsome "></i>
-            <i class="fab fa-github f-awsome "></i>
+        <div class="txt-center fa-position-ft">
+            <a href="mailto:test&#64;test.com">
+                <i class="far fa-envelope f-awsome-ft "></i>
+            </a>
+            <a href="https://github.com/kats0323">
+                <i class="fab fa-github f-awsome-ft "></i>
+            </a>
         </div>
         <div class="txt-center">
             ©️2020 Katsuhiro Shimizu

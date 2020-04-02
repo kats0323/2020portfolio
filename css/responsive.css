@@ -1,0 +1,208 @@
+@media (max-width: 1450px){
+    .projects-container{
+        height: 1000px;
+    }
+}
+@media (max-width: 1024px){
+    .work2 img{
+        width:			380px;
+        height:			250px;
+    }
+    .work2 {
+        width:			380px;
+        height:			250px;
+    }
+    .work1 img{
+        width:			380px;
+        height:			250px;
+    }
+    .work1 {
+        width:			380px;
+        height:			250px;
+    }
+    .work3 img{
+        width:			380px;
+        height:			250px;
+    }
+    .work3 {
+        width:			380px;
+        height:			250px;
+    }
+    .projects-container{
+        height: 900px;
+    }
+    .f-awsome-ft{
+        font-size: 40px;
+    }
+    .footer__bg {
+        height: 75%;
+      }
+    .name-title {
+        padding-bottom: 15px;
+       }  
+    .fa-position-ft{
+           padding-bottom: 5px;
+       }
+    .slider{
+        width: 50%;
+    }
+    .pad-50-slider{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 770px){
+    .work2 img{
+        width:			300px;
+        height:			200px;
+    }
+    .work2 {
+        width:			300px;
+        height:			200px;
+    }
+    .work1 img{
+        width:			300px;
+        height:			200px;
+    }
+    .work1 {
+        width:			300px;
+        height:			200px;
+    }
+    .work3 img{
+        width:			300px;
+        height:			200px;
+    }
+    .work3 {
+        width:			300px;
+        height:			200px;
+    }
+    .name-title{
+        font-size: 1.3rem;
+    }
+    .icon-img{
+        width: 300px;
+        height: 350px;
+    }
+}
+@media (max-width: 544px){
+    .top-container h1{
+        font-size: 2.5rem;
+    }
+    .f-awsome{
+        font-size: 35px;
+    }
+    .btn{
+        font-size: 25px;
+    }
+    .top-container{
+        height: 600px;
+    }
+    .pad-300-top{
+        padding-top: 200px;
+    }
+    .about-title{
+        font-size: 1.8rem;
+    }
+    .about-title2 {
+        font-size: 1.3rem;
+    }
+    .skill-position{
+        padding-top: 20px;
+    }
+    .skill-position img{
+        width: 35px;
+        height: 35px;
+    }
+    .about-container {
+        height: 1550px;
+    }
+    .icon-img{
+        width: 270px;
+        height: 320px;
+    }
+    .pad-50-icon{
+        padding-top: 20px;
+       }
+    .work2 img{
+        width:			350px;
+        height:			200px;
+    }
+    .work2 {
+        width:			350px;
+        height:			200px;
+    }
+    .work1 img{
+        width:			350px;
+        height:			200px;
+    }
+    .work1 {
+        width:			350px;
+        height:			200px;
+    }
+    .work3 img{
+        width:			350px;
+        height:			200px;
+    }
+    .work3 {
+        width:			350px;
+        height:			200px;
+    }
+    .hobbies-container {
+        height: 1250px;
+    }
+    .pad-b-20{
+        padding-bottom: 20px;
+    }
+    .projects-container{
+        height: 600px;
+    }
+    .pad-300-tr{
+        padding-top: 150px;
+    }
+    .slider{
+        width: 75%;
+    }
+    .slick-next::before {
+        padding-left: 25px !important;
+    }
+    .slick-prev::before {
+        padding-left: 25px !important;
+    }
+}
+@media (max-width: 380px){
+    .projects-container{
+        height: 580px;
+    }
+    .slick-next::before {
+        padding-left: 15px !important;
+    }
+    work2 img{
+        width:			320px;
+        height:			200px;
+    }
+    .work2 {
+        width:			320px;
+        height:			200px;
+    }
+    .work1 img{
+        width:			320px;
+        height:			200px;
+    }
+    .work1 {
+        width:			320px;
+        height:			200px;
+    }
+    .work3 img{
+        width:			320px;
+        height:			200px;
+    }
+    .work3 {
+        width:			320px;
+        height:			200px;
+    }
+    .about-title{
+        font-size: 1.5rem;
+    }
+    .about-title2 {
+        font-size: 1.1rem;
+    }
+}

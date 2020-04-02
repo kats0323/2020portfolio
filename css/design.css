@@ -10,8 +10,14 @@ body{
 .pad-300{
     padding-top: 300px;
 }
+.pad-300-top{
+    padding-top: 300px;
+}
 .pad-50{
     padding-top: 50px;
+}
+.pad-300-tr{
+    padding-top: 300px;
 }
 /* nav */
 .bg-light{
@@ -77,6 +83,10 @@ body{
     font-size: 45px;
     margin: auto 20px;
 }
+.fa-position a{
+    color: white;
+    text-decoration: none;
+}
 .f-awsome:hover{
     color: #e44d93;
 }
@@ -112,7 +122,9 @@ body{
     padding: 0 60px;
     color: #111e38;
 }
-
+.pad-50-icon{
+ padding-top: 50px;
+}
 .about-container:before {
         content: "";
         position: absolute;
@@ -140,7 +152,7 @@ body{
 .icon-img{
     width: 350px;
     height: 420px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .skill-img{
     font-size: 1.2rem;
@@ -183,7 +195,7 @@ body{
 }
 .work2:hover .mask {
 	opacity:		1;	/* マスクを表示する */
-	padding-top:		80px;	/* ホバーで下にずらす */
+	padding-top:		110px;	/* ホバーで下にずらす */
 }
 
 .work1 img{
@@ -217,7 +229,7 @@ body{
 }
 .work1:hover .mask {
 	opacity:		1;	/* マスクを表示する */
-	padding-top:		80px;	/* ホバーで下にずらす */
+	padding-top:	110px;	/* ホバーで下にずらす */
 }
 
 .work3 img{
@@ -251,7 +263,7 @@ body{
 }
 .work3:hover .mask {
 	opacity:		1;	/* マスクを表示する */
-	padding-top:		80px;	/* ホバーで下にずらす */
+	padding-top:	110px;	/* ホバーで下にずらす */
 }
 
 
@@ -283,10 +295,16 @@ body{
     height: 100%;
     width: 100%;
 }
+.pad-50-slider{
+    padding-top: 50px;
+}
 /*slick setting*/
 .slick-prev:before,
 .slick-next:before {
     color: #000 !important;
+}
+.slick-next::before {
+    padding-left: 35px !important;
 }
 .slick-dots{
     padding-top: 100px !important;
@@ -309,3 +327,17 @@ body{
     transform: skewY(-6deg);
     transform-origin: top left;
   }
+  .f-awsome-ft{
+    font-size: 45px;
+    margin: auto 20px;
+}
+.fa-position-ft a{
+    color: white;
+    text-decoration: none;
+}
+.f-awsome-ft:hover{
+    color: #e44d93;
+}
+.fa-position-ft{
+    padding-top: 60px;
+}
