@@ -94,22 +94,23 @@ body{
     padding-top: 60px;
 }
 .btn{
-    font-size: 30px;
-   
-    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
 }
 .btn a {
     color: white;
     text-decoration: none;
-    border: 2px solid white;
-    padding: 15px;
-    background-color: transparent;
-    border-radius: 10px;
+}
+.btn a:hover{
+    color: #e44d93;
+    text-decoration: none;
 }
 .btn-position{
     padding-top: 60px;
 }
-.btn a:hover{
+.btn:hover{
     color: #e44d93;
     border: 2px solid #e44d93;
 }

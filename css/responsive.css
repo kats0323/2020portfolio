@@ -168,9 +168,6 @@
     .slider{
         width: 75%;
     }
-    .btn a {
-        border: 2.5px solid white;
-    }
 }
 @media (max-width: 380px){
     .projects-container{
