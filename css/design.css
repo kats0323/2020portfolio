@@ -303,9 +303,7 @@ body{
 .slick-next:before {
     color: #000 !important;
 }
-.slick-next::before {
-    padding-left: 35px !important;
-}
+
 .slick-dots{
     padding-top: 100px !important;
 }

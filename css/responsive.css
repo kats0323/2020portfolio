@@ -48,9 +48,16 @@
     }
     .pad-50-slider{
         padding-top: 10px;
+        padding-left: 0;
     }
 }
 @media (max-width: 770px){
+   .navbar-toggler{
+      display: none;
+    }
+    .navbar-toggler-icon {
+        display: none;
+    }
     .work2 img{
         width:			300px;
         height:			200px;
@@ -160,12 +167,6 @@
     }
     .slider{
         width: 75%;
-    }
-    .slick-next::before {
-        padding-left: 25px !important;
-    }
-    .slick-prev::before {
-        padding-left: 25px !important;
     }
     .btn a {
         color: white;
