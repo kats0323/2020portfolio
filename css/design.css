@@ -162,7 +162,7 @@ body{
 .hobbies-container{
     position: relative;
     height: 50%;
-    height: 800px;
+    height: 890px;
     background-image: linear-gradient(#111e38  , rgb(26, 52, 82));
 }
 .work2 img{
@@ -198,7 +198,39 @@ body{
 	opacity:		1;	/* マスクを表示する */
 	padding-top:		110px;	/* ホバーで下にずらす */
 }
-
+.work4 img{
+    width:			450px;
+	height:			270px;
+}
+.work4 {
+    border-radius: 30px;
+    width:			450px;
+	height:			270px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.work4 .caption {
+	font-size:		200%;
+	text-align: 		center;
+	color:			#fff;
+}
+.work4 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(5, 134, 85, 0.6);
+	-webkit-transition:	all 0.6s ease;
+    transition:		all 0.6s ease;
+    border-radius: 30px;
+}
+.work4:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+	padding-top:		110px;	/* ホバーで下にずらす */
+}
 .work1 img{
     width:			450px;
 	height:			270px;
