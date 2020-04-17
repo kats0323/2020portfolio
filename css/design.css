@@ -222,7 +222,7 @@ body{
 	top:			0;
 	left:			0;
 	opacity:		0;	/* マスクを表示しない */
-	background-color:	rgba(5, 134, 85, 0.6);
+	background-color:	rgba(13, 3, 98, 0.6);
 	-webkit-transition:	all 0.6s ease;
     transition:		all 0.6s ease;
     border-radius: 30px;
