@@ -119,7 +119,7 @@ body{
     background: white;
     overflow: hidden;
     position: relative;
-    height: 1490px;
+    height: 1550px;
     padding: 0 60px;
     color: #111e38;
 }
@@ -149,6 +149,8 @@ body{
 }
 .name-title{
     font-size: 1.7rem;
+    padding: 15px;
+    padding-bottom: 30px;
 }
 .icon-img{
     width: 350px;
@@ -159,15 +161,20 @@ body{
     font-size: 1.2rem;
     font: bold;
 }
+.skill-title{
+    font-size: 1.5rem;
+    font: bold;
+    padding: 5px;
+}
 .hobbies-container{
     position: relative;
     height: 50%;
-    height: 890px;
+    height: 1300px;
     background-image: linear-gradient(#111e38  , rgb(26, 52, 82));
 }
 .work2 img{
     width:			450px;
-	height:			270px;
+    height:			270px;
 }
 .work2 {
     border-radius: 30px;
@@ -175,7 +182,8 @@ body{
 	height:			270px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
-	position:		relative;
+    position:		relative;
+    margin: 0 auto;
 }
 .work2 .caption {
 	font-size:		200%;
@@ -208,7 +216,8 @@ body{
 	height:			270px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
-	position:		relative;
+    position:		relative;
+    margin: 0 auto;
 }
 .work4 .caption {
 	font-size:		200%;
@@ -241,7 +250,8 @@ body{
 	height:			270px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
-	position:		relative;
+    position:		relative;
+    margin: 0 auto;
 }
 .work1 .caption {
 	font-size:		200%;
@@ -275,7 +285,8 @@ body{
 	height:			270px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
-	position:		relative;
+    position:		relative;
+    margin: 0 auto;
 }
 .work3 .caption {
 	font-size:		200%;

@@ -28,13 +28,14 @@
         width:			380px;
         height:			250px;
     }
-    .work3 img{
-        width:			380px;
-        height:			250px;
+    .work2:hover .mask {
+        padding-top:		90px;	/* ホバーで下にずらす */
     }
-    .work3 {
-        width:			380px;
-        height:			250px;
+    .work1:hover .mask {
+        padding-top:		90px;	/* ホバーで下にずらす */
+    }
+    .work4:hover .mask {
+        padding-top:		90px;	/* ホバーで下にずらす */
     }
     .projects-container{
         height: 900px;
@@ -90,13 +91,14 @@
         width:			300px;
         height:			200px;
     }
-    .work3 img{
-        width:			300px;
-        height:			200px;
+    .work2:hover .mask {
+        padding-top:		70px;	/* ホバーで下にずらす */
     }
-    .work3 {
-        width:			300px;
-        height:			200px;
+    .work1:hover .mask {
+        padding-top:		70px;	/* ホバーで下にずらす */
+    }
+    .work4:hover .mask {
+        padding-top:		70px;	/* ホバーで下にずらす */
     }
     .name-title{
         font-size: 1.3rem;
@@ -106,14 +108,13 @@
         height: 350px;
     }
     .hobbies-container{
-        height: 750px;
+        height: 1020px;
+    }
+    .about-container {
+        height: 1400px;
     }
 }
 @media (max-width: 544px){
-    .work3{
-        display: none;
-    }
-
     .top-container h1{
         font-size: 2.5rem;
     }
@@ -153,36 +154,37 @@
         padding-top: 20px;
        }
     .work2 img{
-        width:			350px;
-        height:			200px;
+        width:			280px;
+        height:			170px;
     }
     .work2 {
-        width:			350px;
-        height:			200px;
+        width:			280px;
+        height:			170px;
+    }
+    .work2 .caption {
+        font-size:		130%;
     }
     .work1 img{
-        width:			350px;
-        height:			200px;
+        width:			280px;
+        height:			170px;
     }
     .work1 {
-        width:			350px;
-        height:			200px;
+        width:			280px;
+        height:			170px;
     }
-    .work3 img{
-        width:			350px;
-        height:			200px;
-    }
-    .work3 {
-        width:			350px;
-        height:			200px;
+    .work1 .caption {
+        font-size:		130%;
     }
     .work4 img{
-        width:			350px;
-        height:			200px;
+        width:			280px;
+        height:			170px;
     }
     .work4 {
-        width:			350px;
-        height:			200px;
+        width:			280px;
+        height:			170px;
+    }
+    .work4 .caption {
+        font-size:		130%;
     }
     .hobbies-container {
         height: 1100px;
@@ -199,6 +201,17 @@
     .slider{
         width: 75%;
     }
+    .skill-title{
+        font-size: 1rem;
+        padding-bottom: 0;
+    }
+    .hobbies-container{
+        height: 830px;
+    }
+    .name-title{
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+    }
 }
 @media (max-width: 380px){
     .projects-container{
@@ -206,38 +219,6 @@
     }
     .slick-next::before {
         padding-left: 15px !important;
-    }
-    work2 img{
-        width:			320px;
-        height:			200px;
-    }
-    .work2 {
-        width:			320px;
-        height:			200px;
-    }
-    work4 img{
-        width:			320px;
-        height:			200px;
-    }
-    .work4 {
-        width:			320px;
-        height:			200px;
-    }
-    .work1 img{
-        width:			320px;
-        height:			200px;
-    }
-    .work1 {
-        width:			320px;
-        height:			200px;
-    }
-    .work3 img{
-        width:			320px;
-        height:			200px;
-    }
-    .work3 {
-        width:			320px;
-        height:			200px;
     }
     .about-title{
         font-size: 1.5rem;
