@@ -4,6 +4,11 @@ body{
     color: white;
     font-family: 'Lora', serif;
 }
+.travel-m{
+    padding-top: 10px;
+    text-align: center;
+    font: bold;
+}
 .txt-center{
     text-align: center;
 }
@@ -153,9 +158,9 @@ body{
     padding-bottom: 30px;
 }
 .icon-img{
-    width: 350px;
-    height: 420px;
-    border-radius: 5px;
+    width: 580px;
+    height: 450px;
+    border-radius: 20px;
 }
 .skill-img{
     font-size: 1.2rem;
@@ -332,7 +337,7 @@ body{
     transform: rotate(8deg);
   }
   .slider{
-    margin: 100px auto;
+    margin: 20px auto;
     width: 45%;
 }
 .slider img{
